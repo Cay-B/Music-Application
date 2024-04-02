@@ -25,11 +25,6 @@ export default function App() {
           <TopArtists />
           <NewReleases />
         </View>
-
-    
-
-      
-
       
         {/* Recommended Artist  */}
       
@@ -85,7 +80,6 @@ export default function App() {
         </ScrollView>
         </View>
         </View>
-      
     </ScrollView>
   </SafeAreaView>  
   );

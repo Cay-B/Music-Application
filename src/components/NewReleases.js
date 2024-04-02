@@ -12,33 +12,33 @@ export default function NewReleases() {
         
         <ScrollView horizontal showsHorizontalScrollIndicator={false} className=''> 
 
-          <View className='bg-blue-50 flex flex-col justify-center space-y-2'>
-            <View className='bg-blue-50'>
+          <View className='bg-white flex flex-col justify-center space-y-2'>
+            <View className='bg-white'>
               <Image className='w-40 h-36 m-2' resizeMode='cover' source={require ('../assets/images/release 1.jpg')} />
             </View>
-            <View className='bg-blue-50 w-11/12 px-2'>
+            <View className='bg-white w-11/12 px-2'>
               <View className=''>
                 <Text className='text-xl text-center'>We Don't trust </Text>
               </View>
             </View>
           </View>
 
-          <View className='bg-blue-50 flex flex-col justify-center space-y-2'>
-            <View className='bg-blue-50'>
+          <View className='bg-white flex flex-col justify-center space-y-2'>
+            <View className='bg-white'>
               <Image className='w-40 h-36 m-2' resizeMode='cover' source={require ('../assets/images/release 2.jpg')} />
             </View>
-            <View className='bg-blue-50 w-11/12 px-2'>
+            <View className='bg-white w-11/12 px-2'>
               <View className=''>
                 <Text className='text-xl text-center'>Don't Hate You </Text>
               </View>
             </View>
           </View>
 
-          <View className='bg-blue-50 flex flex-col justify-center space-y-2'>
-            <View className='bg-blue-50'>
+          <View className='bg-white flex flex-col justify-center space-y-2'>
+            <View className='bg-white'>
               <Image className='w-40 h-36 m-2' resizeMode='cover' source={require ('../assets/images/release 3.jpg')} />
             </View>
-            <View className='bg-blue-50 w-11/12 px-2'>
+            <View className='bg-white w-11/12 px-2'>
               <View className=''>
                 <Text className='text-xl text-center'>Devotion </Text>
               </View>
