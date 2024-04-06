@@ -7,7 +7,7 @@ export default function Genres() {
       
       <View className='bg-white flex flex-col justify-center items-center ml-3 mb-3'>
         <View className='bg-blue-400'>
-          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../assets/images/art 1.jpg')} />
+          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../../assets/images/art 1.jpg')} />
         </View>
 
         <View className='w-full bg-blue-50 p-2 justify-center items-start space-y-2'>
@@ -23,7 +23,7 @@ export default function Genres() {
 
       <View className='bg-white flex flex-col justify-center items-center ml-3 mb-3'>
         <View className='bg-blue-400'>
-          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../assets/images/art 2.jpg')} />
+          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../../assets/images/art 2.jpg')} />
         </View>
 
         <View className='w-full bg-blue-50 p-2 justify-center items-start space-y-2'>
@@ -39,7 +39,7 @@ export default function Genres() {
 
       <View className='bg-white flex flex-col justify-center items-center ml-3 mb-3'>
         <View className='bg-blue-400'>
-          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../assets/images/art 3.jpg')} />
+          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../../assets/images/art 3.jpg')} />
         </View>
 
         <View className='w-full bg-blue-50 p-2 justify-center items-start space-y-2'>
@@ -55,7 +55,7 @@ export default function Genres() {
 
       <View className='bg-white flex flex-col justify-center items-center ml-3 mb-3'>
         <View className='bg-blue-400'>
-          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../assets/images/art 4.jpg')} />
+          <Image className='w-40 h-40 m-1' resizeMode='cover' source={require ('../../assets/images/art 4.jpg')} />
         </View>
 
         <View className='w-full bg-blue-50 p-2 justify-center items-start space-y-2'>

@@ -1,7 +1,7 @@
 import { View, Text, Image, ScrollView, Animated, TouchableOpacity } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 import TitleCard from './TitleCard'
-import PlayButton from './PlayButton';
+import CardPlayButton from '../buttons/CardPlayButton';
 
 export default function NewReleases() {
   const handlePlayButtonPress = () => {
@@ -23,8 +23,8 @@ export default function NewReleases() {
             
             <TouchableOpacity activeOpacity={0.7}>
               <View className='bg-red-500 rounded-xl overflow-hidden'>
-                <Image className='w-36 h-36' resizeMode='cover' source={require('../assets/images/release 1.jpg')} />
-                <PlayButton onPress={handlePlayButtonPress} />
+                <Image className='w-36 h-36' resizeMode='cover' source={require('../../assets/images/release 1.jpg')} />
+                <CardPlayButton onPress={handlePlayButtonPress} />
               </View>
             </TouchableOpacity>
             
@@ -42,8 +42,8 @@ export default function NewReleases() {
             
             <TouchableOpacity activeOpacity={0.7}>
               <View className='bg-red-500 rounded-xl overflow-hidden'>
-                <Image className='w-36 h-36' resizeMode='cover' source={require('../assets/images/release 2.jpg')} />
-                <PlayButton onPress={handlePlayButtonPress} />
+                <Image className='w-36 h-36' resizeMode='cover' source={require('../../assets/images/release 2.jpg')} />
+                <CardPlayButton onPress={handlePlayButtonPress} />
               </View>
             </TouchableOpacity>
             
@@ -61,8 +61,8 @@ export default function NewReleases() {
             
             <TouchableOpacity activeOpacity={0.7}>
               <View className='bg-red-500 rounded-xl overflow-hidden'>
-                <Image className='w-36 h-36' resizeMode='cover' source={require('../assets/images/release 3.jpg')} />
-                <PlayButton onPress={handlePlayButtonPress} />
+                <Image className='w-36 h-36' resizeMode='cover' source={require('../../assets/images/release 3.jpg')} />
+                <CardPlayButton onPress={handlePlayButtonPress} />
               </View>
             </TouchableOpacity>
             
@@ -78,8 +78,8 @@ export default function NewReleases() {
             
             <TouchableOpacity activeOpacity={0.7}>
               <View className='bg-red-500 rounded-xl overflow-hidden'>
-                <Image className='w-36 h-36' resizeMode='cover' source={require('../assets/images/release 3.jpg')} />
-                <PlayButton onPress={handlePlayButtonPress} />
+                <Image className='w-36 h-36' resizeMode='cover' source={require('../../assets/images/release 3.jpg')} />
+                <CardPlayButton onPress={handlePlayButtonPress} />
               </View>
             </TouchableOpacity>
             
@@ -95,8 +95,8 @@ export default function NewReleases() {
             
             <TouchableOpacity activeOpacity={0.7}>
               <View className='bg-red-500 rounded-xl overflow-hidden'>
-                <Image className='w-36 h-36' resizeMode='cover' source={require('../assets/images/release 3.jpg')} />
-                <PlayButton onPress={handlePlayButtonPress} />
+                <Image className='w-36 h-36' resizeMode='cover' source={require('../../assets/images/release 3.jpg')} />
+                <CardPlayButton onPress={handlePlayButtonPress} />
               </View>
             </TouchableOpacity>
             
@@ -108,7 +108,6 @@ export default function NewReleases() {
             
           </View>
 
-         
         </ScrollView>
       </View>
     </View>

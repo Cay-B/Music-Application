@@ -1,5 +1,4 @@
 import { View, Text, Image, ScrollView, TouchableOpacity } from 'react-native'
-import React, { useState } from 'react';
 import TitleCard from './TitleCard'
 
 export default function RecomendedArtist() {
@@ -14,7 +13,7 @@ export default function RecomendedArtist() {
 
           <TouchableOpacity activeOpacity={0.7}>
             <View className='rounded-2xl w-40 h-40 bg-blue-200 overflow-hidden shadow-xl'>
-              <Image source={require('../assets/images/artist 2.jpg')} className='w-40 h-40' />
+              <Image source={require('../../assets/images/artist 2.jpg')} className='w-40 h-40' />
             </View>
           </TouchableOpacity>
 
@@ -30,7 +29,7 @@ export default function RecomendedArtist() {
 
           <TouchableOpacity activeOpacity={0.7}>
             <View className='rounded-2xl w-40 h-40 bg-blue-200 overflow-hidden shadow-xl'>
-              <Image source={require('../assets/images/artist 1.jpg')} className='w-40 h-40' />
+              <Image source={require('../../assets/images/artist 1.jpg')} className='w-40 h-40' />
             </View>
           </TouchableOpacity>
 
@@ -46,7 +45,7 @@ export default function RecomendedArtist() {
 
           <TouchableOpacity activeOpacity={0.7}>
             <View className='rounded-2xl w-40 h-40 bg-blue-200 overflow-hidden shadow-xl'>
-              <Image source={require('../assets/images/artist 2.jpg')} className='w-40 h-40' />
+              <Image source={require('../../assets/images/artist 2.jpg')} className='w-40 h-40' />
             </View>
           </TouchableOpacity>
 
@@ -62,7 +61,7 @@ export default function RecomendedArtist() {
 
           <TouchableOpacity activeOpacity={0.7}>
             <View className='rounded-2xl w-40 h-40 bg-blue-200 overflow-hidden shadow-xl'>
-              <Image source={require('../assets/images/artist 2.jpg')} className='w-40 h-40' />
+              <Image source={require('../../assets/images/artist 2.jpg')} className='w-40 h-40' />
             </View>
           </TouchableOpacity>
 

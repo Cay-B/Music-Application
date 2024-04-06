@@ -18,7 +18,7 @@ export default function Header({title}) {
           
           <View className='bg-white justify-center items-center w-1/3'>
             <TouchableOpacity>
-            <Image source={require('..//assets/images/artist 2.jpg')} className='wsd w-12 h-12 rounded-full' />
+            <Image source={require('../../assets/images/artist 2.jpg')} className='wsd w-12 h-12 rounded-full' />
             </TouchableOpacity>
           </View>
         </View>

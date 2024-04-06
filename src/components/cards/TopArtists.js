@@ -13,7 +13,7 @@ export default function TopArtists() {
           
           <View className='flex flex-col justify-center '>
             <View className='overflow-hidden rounded-xl'>
-              <Image className='w-40 h-40' resizeMode='cover' source={require ('../assets/images/artist 2.jpg')} />
+              <Image className='w-40 h-40' resizeMode='cover' source={require ('../../assets/images/artist 2.jpg')} />
             </View>
             
             <View className='bg-white justify-start items-start p-2'>
@@ -23,7 +23,7 @@ export default function TopArtists() {
 
           <View className='flex flex-col justify-center '>
             <View className='bg-white overflow-hidden rounded-xl'>
-              <Image className='w-40 h-40' resizeMode='cover' source={require ('../assets/images/art 1.jpg')} />
+              <Image className='w-40 h-40' resizeMode='cover' source={require ('../../assets/images/art 1.jpg')} />
             </View>
             
             <View className='bg-white justify-start items-start p-2'>
@@ -33,7 +33,7 @@ export default function TopArtists() {
 
           <View className='bg-white flex flex-col justify-center '>
             <View className='overflow-hidden rounded-xl'>
-              <Image className='w-40 h-40' resizeMode='cover' source={require ('../assets/images/release 3.jpg')} />
+              <Image className='w-40 h-40' resizeMode='cover' source={require ('../../assets/images/release 3.jpg')} />
             </View>
             
             <View className='bg-white justify-start items-start p-2'>
@@ -43,7 +43,7 @@ export default function TopArtists() {
 
           <View className='bg-white flex flex-col justify-center '>
             <View className='overflow-hidden rounded-xl'>
-              <Image className='w-40 h-40' resizeMode='cover' source={require ('../assets/images/art 3.jpg')} />
+              <Image className='w-40 h-40' resizeMode='cover' source={require ('../../assets/images/art 3.jpg')} />
             </View>
             
             <View className='bg-white justify-start items-start p-2'>
@@ -53,7 +53,7 @@ export default function TopArtists() {
 
           <View className='bg-white flex flex-col justify-center '>
             <View className='overflow-hidden rounded-xl'>
-              <Image className='w-40 h-40' resizeMode='cover' source={require ('../assets/images/art 5.jpg')} />
+              <Image className='w-40 h-40' resizeMode='cover' source={require ('../../assets/images/art 5.jpg')} />
             </View>
             
             <View className='bg-white justify-start items-start p-2'>
